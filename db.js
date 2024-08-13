@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Update the MongoDB connection URI
-const mongoURI = 'mongodb://localhost:27017/test';
+const mongoURI = 'mongodb+srv://fearman99:fearman99@atlascluster.mrr1e.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster';
 
 async function connectToMongo() {
     try {
